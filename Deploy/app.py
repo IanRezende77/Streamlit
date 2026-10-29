@@ -39,7 +39,7 @@ def carregar_dados(caminho_arquivo):
     return df_completo
 
 
-caminho_arquivo = "Tabela 1.1.2.xls"
+caminho_arquivo = r"H:\python\atividades\GitNovo\Deploy\Tabela 1.1.2.xls"
 
 try:
     df = carregar_dados(caminho_arquivo)
